@@ -1,0 +1,118 @@
+body {
+  font-family: work sans, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #222326;
+  background-color: #FFF;
+}
+
+/*------------------------------------------------*/
+
+/*----------------------HERO----------------------------*/
+
+.hero-gradient{
+  background-color:#ffc362;
+  height: 550px;
+}
+.hero-text {
+  text-align: center;
+  
+}
+h1{
+  font-weight: 700;
+  font-size: 40px;
+  padding-top:230px;
+  color:white;
+}
+.btn{
+  padding:15px 50px;
+  font-size:16px;
+  font-weight: 500;
+  margin-top:24px;
+  margin-bottom:24px;
+  background-color: #1DB954;
+  border: none;
+  border-radius: 50px;
+  text-transform:uppercase;
+  letter-spacing:3px;
+}
+
+
+.text h1{
+  color: black;
+}
+
+.btn:hover{
+  background-color: #1ED760;
+}
+
+span{
+  font-size:12px;
+  font-weight: 400;
+  color:white;
+}
+
+
+.hero-link{
+  text-decoration: underline;
+  color: white;
+}
+
+/*-----------------HEADER------------------------*/
+.container .menu{
+  margin-left:0% !important;
+  margin-top:50px;
+}
+
+.foto{
+  width:32px;
+  height: 32px;
+  border-radius: 50px;
+}
+
+
+@media(min-width:729px){
+  .bg-light {
+    background-color: rgba(0, 0, 0, 0.185)!important;}
+}
+@media(max-width:728px){
+  .bg-light {
+    background-color: black!important;}
+    .navbar-toggler {
+      color: white;
+    border-color: white;
+    background-color: white;}
+}
+
+
+/*-------------principal-----------*/
+
+.text {
+  text-align: center;
+  
+}
+.botao-player:hover{
+  color:white;
+  border: 2px solid #616467;
+  background-color:#616467;
+}
+
+.botao-player{
+  padding:10px 50px;
+  font-size:16px;
+  font-weight: 500;
+  margin-top:5px;
+  margin-bottom:80px;
+  color:#616467;
+  border: 2px solid #616467;
+  background-color: white;
+  border-radius: 50px;
+  text-transform:uppercase;
+  letter-spacing:2px;
+}
+/*------------albuns-------------*/
+
+.albuns{
+  text-align: center;
+  
+}
